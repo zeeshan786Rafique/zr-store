@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- login css -->
+    <link rel="stylesheet" href="Css/login.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <a href="mr.html" class="logo"><img src="image/mr.png" alt="logo"></a>
+        <ul class="navmenu">
+            <li><a href="mr.html">home</a></li>
+            <li><a href="shop.html">shop</a></li>
+            <li><a href="products.html">product</a></li>
+            <li><a href="#">page</a></li>
+            <li><a href="#">Docs</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bxs-cart'></i></a>
+            <a href="login.html"><i class='bx bxs-user'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <!-- 1st input-field -->
+                    <div class="input-field" id="nameField">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <!--2nd field -->
+                    <div class="input-field">
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <!-- 3rd field -->
+                    <div class="input-field">
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <p>Forget password?<a href="#"> Click Here</a></p>
+                </div>
+                <!-- Two Buttons -->
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign Up</button>
+                    <button type="button" id="signinBtn" class="disable">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="Js/mr.js"></script>
+</body>
+</html>
